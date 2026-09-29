@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#062c3b"><title>AltaMar | Alerta para pescadores</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#inicio"><span class="mark">⚓</span><span><b>AltaMar</b><small>Alerta para pescadores</small></span></a>
+  <nav><a href="#pronostico">Mar</a><a href="#pesca">Pesca</a><a href="#seguridad">Seguridad</a><a href="#dihidronav">DIHIDRONAV</a><button id="admin">⚙️</button></nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div>
+    <small class="eyebrow">📍 Pimentel, Lambayeque</small>
+    <h1>Conoce el mar.<br><em>Decide mejor tu salida.</em></h1>
+    <p>AltaMar es una propuesta de aplicación móvil que muestra las condiciones del mar y ayuda a los pescadores a recibir alertas claras.</p>
+    <div class="actions"><a class="btn primary" href="#pesca">🎣 Ver pesca</a><a class="btn ghost" href="#seguridad">⚠️ Seguridad</a></div>
+  </div>
+  <div class="hero-art"><div class="sun"></div><div class="boat">⛵</div><div class="bubble">⚠️<b>ALERTA</b><small>Condiciones del mar</small></div><div class="waves">〰〰〰〰〰〰</div></div>
+</section>
+
+<section class="status" id="pronostico">
+  <div class="status-top">
+    <div><small class="eyebrow dark">ESTADO ACTUAL DEL MAR</small><h2 id="estado">🟡 Moderado</h2><p id="desc">Condiciones aceptables, pero se recomienda precaución.</p></div>
+    <div class="score"><b id="score">6.5</b><span>/10</span><small>Demo</small></div>
+  </div>
+  <div class="chip" id="condition-chip">🟡 Precaución</div>
+  <div class="metrics">
+    <div><span>🌊</span><b id="oleaje">1.4 m</b><small>Oleaje</small></div>
+    <div><span>〰️</span><b id="periodo">8 s</b><small>Período</small></div>
+    <div><span>💨</span><b id="viento">24 km/h</b><small>Viento</small></div>
+    <div><span>🌡️</span><b id="temp">21 °C</b><small>Temperatura</small></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><div><small class="eyebrow dark">PRONÓSTICO</small><h2>Pronóstico por horas</h2></div><span>Datos de demostración</span></div>
+  <div class="hours">
+    <div><b>9 PM</b><strong>🌊 1.4 m</strong><small>24 km/h</small></div>
+    <div><b>10 PM</b><strong>🌊 1.3 m</strong><small>22 km/h</small></div>
+    <div><b>11 PM</b><strong>🌊 1.2 m</strong><small>20 km/h</small></div>
+    <div><b>12 AM</b><strong>🌊 1.1 m</strong><small>18 km/h</small></div>
+  </div>
+</section>
+
+<section class="fishing" id="pesca">
+  <div class="section-head light"><div><small class="eyebrow">PARA PESCADORES</small><h2>🎣 Condiciones para pescar</h2><p>Una sección pensada especialmente para revisar rápidamente las condiciones antes de salir.</p></div>
+  <div class="fish-status"><span id="picon">🟢</span><b id="pesca-status">Favorable</b></div></div>
+  <div class="factors">
+    <div><small>Oleaje</small><b id="fo">🟢 Adecuado</b></div><div><small>Viento</small><b id="fv">🟡 Moderado</b></div>
+    <div><small>Marea</small><b>🟢 Favorable</b></div><div><small>Actividad</small><b>🟢 Buena</b></div>
+  </div>
+  <div class="fish-note">💡 <b>Revisa esta pantalla antes de salir.</b> <span>AltaMar resume la información importante en un solo lugar.</span></div>
+</section>
+
+<section class="safety" id="seguridad"><div class="safety-icon">⚠️</div><div><small class="eyebrow dark">SEGURIDAD</small><h2>Recomendación</h2><p id="rec">Las condiciones son aceptables. Verifica el pronóstico antes de salir.</p></div></section>
+
+<section class="dhi" id="dihidronav">
+  <div>
+    <small class="eyebrow dark">REFERENCIA PARA ALTAMAR</small>
+    <h2>🌊 Información de la Dirección de Hidrografía y Navegación</h2>
+    <p>La Marina de Guerra del Perú, mediante la Dirección de Hidrografía y Navegación (DHN–DIHIDRONAV), publica información sobre el estado del mar y avisos especiales de oleaje.</p>
+    <div class="levels"><span>🟢 Normal</span><span>🟡 Ligero</span><span>🟠 Moderado</span><span>🔴 Fuerte</span><span>🔴 Muy fuerte</span></div>
+    <p class="note">AltaMar podría tomar esta información como referencia para definir y comunicar sus alertas. Esta página sigue usando datos de demostración.</p>
+    <a class="btn primary" href="https://www.dhn.mil.pe/portal/avisos-especiales" target="_blank" rel="noopener">Ver avisos oficiales ↗</a>
+  </div>
+  <div class="dhi-logo"><div>✦</div><b>DHN</b><small>DIHIDRONAV</small><span>Referencia oficial</span></div>
+</section>
+
+<section class="section about">
+  <small class="eyebrow dark">¿QUÉ ES ALTAMAR?</small>
+  <h2>Una futura aplicación móvil para alertar a pescadores.</h2>
+  <p>Esta página web es solo un <b>prototipo visual</b> de cómo podría verse la aplicación en un teléfono. La aplicación final todavía no está disponible como APK.</p>
+</section>
+</main>
+
+<footer>⚓ <b>AltaMar</b> · Proyecto escolar · Prototipo de aplicación móvil</footer>
+
+<div id="panel" class="overlay hidden"><div class="admin"><button id="close">×</button><small class="eyebrow dark">MODO DEMOSTRACIÓN</small><h2>Actualizar condiciones</h2><div class="grid">
+<label>Viento<input id="iv" type="number"></label><label>Oleaje<input id="io" type="number" step=".1"></label><label>Período<input id="ip" type="number"></label><label>Temperatura<input id="it" type="number"></label>
+<label>Estado<select id="ie"><option>Calmado</option><option>Moderado</option><option>Fuerte</option><option>Peligroso</option></select></label>
+<label>Pesca<select id="ix"><option>Favorable</option><option>Regular</option><option>No favorable</option></select></label>
+</div><div class="admin-actions"><button id="save">💾 Guardar</button><button id="reset">↺ Restaurar</button></div><p id="msg"></p></div></div>
+<script src="script.js"></script>
+</body></html>
